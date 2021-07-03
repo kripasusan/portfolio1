@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 10px 100px; 
+    box-sizing:border-box;
+    background:#fff;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section.home{
+    background-color: rgb(238, 178, 105);
+    background-size: cover;
+}
+section.about{
+    padding:100px;
+    box-sizing: border-box;
+    height: auto;
+
+}
+section.about h2{
+    font-size:3em;
+    margin:0;
+    padding:0 0 20px;
+
+}
+
+section.about p{
+    font-size:1.2em;
+    margin:0;
+    padding:0 0 20px;
+
+}
+
+.navbar{
+   width:100%;
+   height:50px;
+   border-top: 1px solid rgb(184, 184, 184);
+   border-bottom: 1px solid rgb(184, 184, 184);
+   position:sticky;
+   top: 0;
+   z-index: 500;
+
+}
+.navbar ul {
+    display:flex;
+    margin: 0;
+    padding: 0 100px;
+    float:right;
+    
+ }
+
+ .navbar ul li {
+    list-style: none;
+    
+ }
+ .navbar ul li a {
+    display: block;
+    color:black;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    
+ }
+
+ .card,
+ .card body {
+     width:30rem;
+     height: 40rem;
+     padding: 10px 100px;
+ }
