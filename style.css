@@ -18,14 +18,18 @@ body{
 
 section{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+footer{
+  background-color: #3f729b !important;
 }
 
 /* section.home{
     background-color: rgb(238, 178, 105);
     background-size: cover;
 } */
-section.about{
+/* section.about{
     padding:100px;
     box-sizing: border-box;
     height: auto;
@@ -43,7 +47,7 @@ section.about p{
     margin:0;
     padding:0 0 20px;
 
-}
+} */
 
 .navbar{
    width:100%;
@@ -148,4 +152,63 @@ section.about p{
   }
 .social-links a:hover{
     background:rgb(111, 132, 250);
+  }
+
+
+  .image-round{
+    border-radius: 50%;
+  }
+
+  section:nth-of-type(2n) {
+    background-color: #3f729b !important;
+  }
+
+
+  .about-me .section-title {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(111, 132, 250);
+  }
+  
+  .about-me .content h3, h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: salmon;
+  }
+  
+  .about-me .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .about-me .content ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: rgb(111, 132, 250);
+  }
+  
+  .about-me .content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .fa-angle-right{
+    color: salmon !important;
+  }
+
+  .card{
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  }
+  
+  
+  .btn .btn-outline-primary{
+    color:#3f729b;
+  }
+
+  .btn:hover{
+    background-color:#3f729b !important;
+    color:white !important;
   }
