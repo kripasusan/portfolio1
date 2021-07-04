@@ -205,7 +205,7 @@ section.about p{
   
   
   .btn .btn-outline-primary{
-    color:#3f729b;
+    color:#3f729b !important;
   }
 
   .btn:hover{
