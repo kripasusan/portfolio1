@@ -21,10 +21,10 @@ section{
     height: 100vh;
 }
 
-section.home{
+/* section.home{
     background-color: rgb(238, 178, 105);
     background-size: cover;
-}
+} */
 section.about{
     padding:100px;
     box-sizing: border-box;
@@ -48,6 +48,7 @@ section.about p{
 .navbar{
    width:100%;
    height:50px;
+   background-color: #fff;
    border-top: 1px solid rgb(184, 184, 184);
    border-bottom: 1px solid rgb(184, 184, 184);
    position:sticky;
@@ -78,9 +79,73 @@ section.about p{
     
  }
 
- .card,
+ .navbar ul li a:hover {
+  display: block;
+  color: salmon;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+  
+}
+
+ /* .card,
  .card body {
      width:30rem;
      height: 40rem;
      padding: 10px 100px;
- }
+ } */
+
+
+ 
+ #home {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 0;
+    display: table;
+    margin: 0;
+    max-width: none;
+    /* background-color: #373B44; */
+    height: 100vh;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .name{
+    color: #3f729b;
+  }
+
+  a { 
+    color:salmon;
+    text-decoration:none;
+  }
+  a:hover{
+    color: pink;
+    text-decoration:none;
+  }
+
+.social-links {
+    margin-top: 40px;
+    display:flex;
+  }
+  
+.social-links a{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightcoral;
+    color:white;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+
+  }
+.social-links a:hover{
+    background:rgb(111, 132, 250);
+  }
